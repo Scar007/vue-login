@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!--<img src="./assets/logo.png">-->
     <router-view></router-view>
   </div>
 </template>
@@ -16,5 +15,9 @@
     padding: 0;
     margin: 0;
     font-size: 14px;
+  }
+  #app{
+    width: 100%;
+    height: 100%;
   }
 </style>

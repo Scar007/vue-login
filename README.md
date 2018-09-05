@@ -1,6 +1,6 @@
-# vue-vote
+# vue-login
 
-> A Vue.js project
+> 一个用vue简单实现的登录页
 
 ## Build Setup
 
@@ -8,14 +8,14 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# 前台服务运行
 npm run dev
 
-# build for production with minification
-npm run build
+# 后台server
+node server.js
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
+> 本来想着用mackjs来做一下接口处理，但是考虑到注册，数据存贮等，就自己在项目中创建mock，进行通过node进行文件读写，并通过express创建需要的server服务等，时间有限，就做这些了
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
